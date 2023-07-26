@@ -13,4 +13,5 @@ class ProductPageLocators():
     PRODUCT_PRICE = (By.CSS_SELECTOR, 'p.price_color')
     ADD_TO_BASKET_BUTTON = (By.XPATH, '//*[@id="add_to_basket_form"]/button')
     PRODUCT_NAME_IN_BASKET = (By.XPATH, '//*[@id="messages"]/div[1]/div/strong')
-    PRODUCT_PRICE_IN_BASKET = (By.XPATH,'//*[@id="messages"]/div[3]/div/p[1]/strong')
+    PRODUCT_PRICE_IN_BASKET = (By.XPATH, '//*[@id="messages"]/div[3]/div/p[1]/strong')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '#messages > div:nth-child(1) > div > strong')
